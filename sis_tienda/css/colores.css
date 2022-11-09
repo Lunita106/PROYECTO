@@ -1,0 +1,158 @@
+body {
+	background: #1EB0D7;
+}
+h1 {
+	font-size: 20px;
+	color: #ffffff;
+	font-family: Tahoma;
+}
+h2 {
+	font-size: 18px;
+	color: #000000;
+	font-family: Tahoma;
+}
+.limpiar {
+	overflow: hidden;
+}
+/*ESTILO PARA LA PARTE SUPERIOR*/
+.cabecera {
+	width: 50;
+	height: 100px;
+	background-color: #154360;
+}
+.titulo {
+	font-size: 50px;
+	color: #ffffff;
+	font-family: Tahoma;
+	display: inline;
+	text-shadow: 2px 2px 2px black;
+}
+.usuario {
+	font-size: 15px;
+	color: #ffffff;
+	font-family: Tahoma;
+	display: inline;
+	padding-right: 5px;
+	/*text-shadow: 2px 2px 2px black;*/
+}
+/*ESTILO-FORMU-DE.INGRESO-AL.SISTEMA*/
+.formu_ingreso {
+	width: 200px;
+	height: 250px;
+	background-color: #154360;
+	position: relative;
+	top: 80px;
+	left: 40%;
+	padding: 10px;
+	border: solid 5px;
+	border-radius: 20px;
+}
+.boton {
+	border: solid 2px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-left: 40%;
+}
+/*COLORES PARA EL MENU*/
+#header {
+	margin: auto;
+	width: 3000px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+	list-style: none;
+}
+.nav > li {
+	float: left;
+}
+.nav li a {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+}
+.nav li a:hover {
+	background-color: #434343;
+}
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul {
+	display: block;
+}
+.nav li ul li {
+	position: relative;
+}
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+/*ESTILOS PARA LOS LISTADOS*/
+a {
+	text-decoration: none;/*para quitar el subrayado de los enlaces*/
+	color: #000000;/*negro de la letra*/
+	font-family: Times New Roman;
+	font-size: 12pt;
+	font-weight: bold;
+}
+a:hover {
+	background: #191970;
+	color: white;
+	text-decoration: underline;
+	box-shadow: -2px 2px 5px #000;/*para la sombra de la cajita*/
+	font-family: Tahoma;
+}
+.listado table {
+	width: auto;
+	border: 1px solid #000000;
+}
+.listado th {
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #191970;
+	border: 1px solid #000000;
+}
+.listado td {
+	font-size: 14px;
+	border: 1px solid #000000;
+}
+/*ESTILO PARA LOS TITULOS DE LOS LISTADOS*/
+.titulo_listado {
+	width: 300px;
+	height: 50px;
+	position: relative;
+	top: 15px;
+	left: 45%;
+}
+.titulo_nuevo {
+	position: relative;
+	top: 10px;
+	left: 95%;
+}
+/*ESTILO FORMUS DE IMGRESO DE DATOS*/
+.formu_ingreso_datos {
+	width: 315px;
+	background-color: #154360;
+	position: relative;
+	font-size: 15px;
+	top: 80px;
+	left: 40%;
+	padding-left: 60px;
+	border: solid 2px;
+	border-radius: 20px;
+}
+.boton2 {
+	border: solid 2px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-left: 40%;
+	margin: 10px;
+}
+h3 {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
